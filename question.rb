@@ -12,7 +12,7 @@ class Question
     @num2 = rand(1..10)
     @result = @num1 + @num2
 
-    puts "Player #{role}: What does #{@num1} plus #{@num2} euqual?"
+    puts "Player #{role}: What does #{@num1} plus #{@num2} equal?"
     print "> "
 
     answer = gets.chomp.to_i
